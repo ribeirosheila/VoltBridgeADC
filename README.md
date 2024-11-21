@@ -31,9 +31,6 @@ A placa do VoltBridgeADC foi projetada no KiCad, com atenção aos detalhes:
 ## Sugestões para Melhorias ✨
 Este projeto foi projetado para ser um ponto de partida, e há diversas possibilidades de melhorias:
 
-
-Este projeto foi projetado para ser um ponto de partida, e há diversas possibilidades de melhorias:
-
 - Substituição do Microcontrolador: Desenvolvedores podem optar pelo Arduino ou outros microcontroladores mais acessíveis, ajustando o código e o circuito para compatibilidade.
 - Melhorias na Interface de Usuário: A interface em LabVIEW pode ser substituída ou aprimorada, utilizando outras linguagens de programação, como Python ou C#, para maior flexibilidade e recursos adicionais.
 - Atualização da PCB: Melhorias no layout da placa, otimização do circuito e inclusão de novos recursos podem ser feitas.
