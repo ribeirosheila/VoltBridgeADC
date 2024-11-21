@@ -15,7 +15,8 @@ A interface foi implementada no LabVIEW, empregando o design pattern Produtor-Co
 - Seleção da porta USB do microcontrolador.
 - Controle da comunicação com botões dedicados.
 - Visualização em tempo real da tensão lida.
-- Este foi o meu primeiro projeto no LabVIEW, e ele foi uma oportunidade de explorar a integração entre software e hardware.
+
+Este foi o meu primeiro projeto no LabVIEW, e ele foi uma oportunidade de explorar a integração entre software e hardware.
 
 ## Desenvolvimento de PCB 🛠️
 A placa do VoltBridgeADC foi projetada no KiCad, com atenção aos detalhes:
