@@ -31,12 +31,14 @@ A placa do VoltBridgeADC foi projetada no KiCad, com atenção aos detalhes:
 ## Sugestões para Melhorias ✨
 Este projeto foi projetado para ser um ponto de partida, e há diversas possibilidades de melhorias:
 
+
+Este projeto foi projetado para ser um ponto de partida, e há diversas possibilidades de melhorias:
+
 - Substituição do Microcontrolador: Desenvolvedores podem optar pelo Arduino ou outros microcontroladores mais acessíveis, ajustando o código e o circuito para compatibilidade.
 - Melhorias na Interface de Usuário: A interface em LabVIEW pode ser substituída ou aprimorada, utilizando outras linguagens de programação, como Python ou C#, para maior flexibilidade e recursos adicionais.
 - Atualização da PCB: Melhorias no layout da placa, otimização do circuito e inclusão de novos recursos podem ser feitas.
 - Aprimoramento do Código em C: Refatoração e adição de funcionalidades ao código do microcontrolador para torná-lo mais robusto e versátil.
-## Documentação 📚
-Para obter mais informações e esclarecer dúvidas, consulte a seção Documentação do repositório. Lá, você encontrará um documento mais detalhado sobre o projeto, incluindo explicações técnicas e orientações adicionais.
+- Substituição da comunicação serial UART por Bluetooth ou Wi-Fi: Implementar comunicação via Bluetooth ou Wi-Fi pode modernizar o projeto, facilitando a transmissão de dados do microcontrolador para a interface de usuário. Isso também permitiria o acompanhamento da tensão em tempo real diretamente pelo celular do usuário, ao invés de somente pelo PC, oferecendo mais praticidade e conectividade ao sistema.
 
 ## Licença 🆓
 O VoltBridgeADC é um projeto open source, desenvolvido com o objetivo de compartilhar conhecimento e auxiliar outros entusiastas e estudantes. Sinta-se à vontade para usá-lo em seus próprios projetos ou como base para o seu TCC. Contribuições e melhorias são sempre bem-vindas!
