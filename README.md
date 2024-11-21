@@ -1,6 +1,8 @@
 # VoltBridgeADC ⚡
 VoltBridgeADC é um projeto open source que combina eletrônica, programação e design de interface para a criação de um sistema de aquisição de sinais de tensão. Este projeto foi desenvolvido como uma solução simples e prática, ideal para quem deseja aprender ou construir uma base para seu Trabalho de Conclusão de Curso (TCC). O VoltBridgeADC foi projetado para ser adaptável, permitindo que outros desenvolvedores expandam suas funcionalidades ou ajustem o sistema conforme suas necessidades.
 
+Este foi o meu primeiro projeto de PCB e também o meu primeiro trabalho utilizando microcontroladores da STMicroelectronics, uma experiência que me permitiu explorar desde a programação em baixo nível até o desenvolvimento de hardware.
+
 ## Sobre o Projeto 🚀
 O VoltBridgeADC foi desenvolvido utilizando:
 
