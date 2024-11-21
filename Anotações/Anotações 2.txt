@@ -1,0 +1,37 @@
+-Circuito
+  -Fonte espelhada
+    -Capacitores eletrolíticos
+    -Capacitores de poliéster *detalhar mais os capacitores
+    -Resistores de 100Ohms e 2Watts *detalhar
+    -Diodo de 11V *detalhar
+  
+*gráfico de linearidade
+
+  -Ampop
+    -Alimentação vinda da fonte espelhada com uma leve variação, chegando próximo de +/-11V.
+    -Capacitores de desacoplamento na alimentação para diminuir ruídos.
+    -Somador - Não inversor.
+    -Entrada inversora com ligação direta na saída do ampop, para ganho unitário.
+    -Saída com divisor de tensão.
+  
+  -Divisor de tensão.
+    -Três resistores de 1MOhms e com saída para o adc *detalhar
+
+
+-Programa do microntrolador
+  -Modo Multiprocessador do UART que estava impedindo o funcionamento em conjunto com o ADC
+  -Variáveis
+    -int *detalhar
+    -char *detalhar
+  -Hal_Uart_Transmit
+  -Hal_Uart_Receive
+  -Hal_ADC
+  -Comando if.
+
+-LabView
+  -Produtor/Consumidor
+  -Cases do consumidor
+  -Transmissão e recepção do microcontrolador
+
+gráfico de linearidade
+  

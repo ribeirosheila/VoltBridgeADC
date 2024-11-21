@@ -1,0 +1,18 @@
+Labview:
+- Só consigo selecionar a porta antes de iniciar o programa, se não ele buga. 
+
+Circuito:
+- Resistores da fonte espelhada tiveram que ser de 100Ohms e 2Watts.
+
+- Utilizando o LM 741, alimentação próxima dos 11V, e sem o divisor de tensão na saída do ampop, a saída se mantém
+estabilizada e linear, tendo uma variação em torno de 50mV. Mas, ao colocar o divisor de tensão na saída do ampop,
+há uma queda de tensão se o valor for baixo, por isso foi colocado três resistores de 1M, assim a saída se matém 
+estabilizada, com uma variação próxima de 20mV. Porém, por conta dos resistores do adc, que estão no núcleo que
+foi utilizado para testes, ao conectar a saída do divisor de tensão, há uma queda na tensão, porém, adaptando o 
+valor da divisão no programa do LabView, é possível ter o mesmo resultando, porém com uma instabilidade.
+ 
+- Por não conseguir uma variação linear e alta, os resistores também ajudaram a deixar os 10V em um valor de +/- 3,2,
+ao invés dos 3,3 que na resolução seriam os 4095. Isso porque a variação estava baixa, então quando o valor de tensão
+estava em 9V, a resolução permanecia em 4095, pois a tensão do divisor não chegava no valor mínimo que fazia abaixar
+dos 4095, o que seria um valor de 3,2. Então determinando os 10V como 3,2 é possível ter uma variação maior,
+conseguindo identificar a mudança de tensão. 
